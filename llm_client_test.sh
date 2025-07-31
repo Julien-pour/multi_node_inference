@@ -25,6 +25,6 @@ module load arch/h100
 module load python/3.11.5
 ulimit -c 0
 module load cuda/12.8.0
-conda activate aces_sglang49p5
+conda activate sglang
 cd /lustre/fswork/projects/rech/imi/uqv82bm/multi_node/
 python llm_client.py --model "/lustre/fsn1/projects/rech/imi/uqv82bm/hf/Qwen3-Coder-480B-A35B-Instruct-FP8" --ep_moe
